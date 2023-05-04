@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid #000;
+    background-color: rgb(114, 171, 245);
+    padding: 10px;
+}
+
+.item {
+    border: 2px solid #000;
+    background-color: rgb(248, 169, 155);
+    padding: 10px;
+}
+
+/* justify-content = container의높이보다 item의 총넓이가 작다면 item통채로의 정렬 */
+.container {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+}
+
+.item {
+
+}
